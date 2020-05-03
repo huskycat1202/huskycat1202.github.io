@@ -9,6 +9,9 @@
 #title #by{
     font-size: 20px;
 }
+#all {
+    transform: translate(0,-25%) scale(0.5);
+}
 #photo {
     width: 450px;
     position: relative;
@@ -21,7 +24,7 @@ section {
     position: relative;
     flex-direction: column;
     left: 50%;
-    transform: translate(-50%,0) scale(0.8);
+    transform: translate(-50%,0);
 }
 #category {
     width: 600px;
